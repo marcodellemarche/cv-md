@@ -1,34 +1,43 @@
+# Curriculum Vitae Markdown
+
+❗ The important stuff starts here ❗
+
+Hi everyone! This repository is a template and it's meant to be used as a starting point for your Curriculum Vitae.
+
+Come on, updating the CV is already boring by itself, imagine having to take care of its formatting as well. So the idea is to update a single Markdown file, like this README, and a Github Action will take care of the rest. It will:
+
+- Put the CV online on **Github Pages**, built with Jekyll. You can even use a custom domain if you'd like. You don't need to worry too much about the formatting. Feel free to move from Jekyll to [one of these](https://github.com/pages-themes).
+- Convert it to a **PDF**, which is uploaded as the `latest` Release. A link to it can be found a few lines above, so it can be easily downloaded by the online version of the CV.
+
+At every commit into the `main` branch, everything will be rebuilt and updated.
+
+Thus, the only thing you need to update is this README. And most importantly, before starting, there are a couple things to do:
+
+- **Update the links in the template below**, especially the link to the PDF. Just change `marcodellemarche/cvmd` with your Github username and repository name.
+- Enable Github Pages for your repo. Go to *Settings*, *Pages*, then under *Build and deployment* set the source to **Github Actions**.
+- You need to re-run once again the failed Action.
+
+*Pro tip*: if you need to force a page break into the PDF, simply use the following HTML element.
+
+```html
+<div class="page-break"></div>
+```
+
+That's it for today, I'll leave you to the fake CV you might take inspiration from. See ya! 👋
+
+❗ The important stuff ends here ❗
+
+<div class="page-break"></div>
+
 # Paolo Canestro
 
 <img src="assets/profile.png" alt="Profile picture" width="200" align="right"/>
 
 *Super powerful engineer, based on the moon* 🌝
 
-[Email](mailto:paolo@canestro.com) / [LinkedIn](https://www.linkedin.com/in/paolocanestro) / [GitHub](https://github.com/paolocanestro) / [Instagram](https://www.instagram.com/paolocanestro)
+[Email](mailto:paolo@canestro.com) / [LinkedIn](https://www.linkedin.com/in/cvmd) / [GitHub](https://github.com/cvmd) / [Instagram](https://www.instagram.com/cvmd)
 
-📎 Download this CV [as a PDF](https://github.com/paolocanestro/cv/releases/download/latest/paolocanestro-cv.pdf)
-
-## 🚀 Lunar Engineering and Cosmic Comedy Experience
-
-**Rocket Scientist & Stand-Up Star** @ [Lunar Labs](https://lunarlabs.space) *(Jan 2022 - Present)*
-
-Innovative space exploration and intergalactic humor at its finest! I wear many hats on the moon.
-
-- **Lunar Rocketry**: Designed, built, and launched rockets to explore the moon's cheese mines. Successfully delivered supplies to the Swiss cheese moon base.
-
-- **Extraterrestrial Comedy**: Performed cosmic stand-up comedy for our lunar audience. Laughter is the best rocket fuel! My jokes are out of this world.
-
-- **Alien Communication**: Established contact with moon-dwelling aliens using a combination of Morse code and interpretive dance. They're lovely creatures with a taste for Earth snacks.
-
-- **Spacewalk Juggling**: Conducted spacewalks while juggling moon rocks and satellite dishes. Safety first, but entertainment a close second.
-
-- **Lunar IT Troubleshooting**: Provided technical support for our lunar computer systems, ensuring that the moonbase's Wi-Fi signal was strong enough to reach the Milky Way.
-
-- **Astro-Data Comedy Analysis**: Analyzed cosmic data sets while cracking cosmic jokes. Humor is universal, even in space.
-
-- ***Technologies used:*** Rocket engines, anti-gravity humor, Morse code, lunar rock juggling, cosmic Wi-Fi boosting, and data analysis with a comedic twist.
-
-<div class="page-break"></div>
+📎 Download this CV [as a PDF](https://github.com/marcodellemarche/cvmd/releases/download/latest/cv.pdf)
 
 ## 🌙 Moonlight Engineering Experience
 
@@ -53,6 +62,8 @@ Studied the intricacies of lunar cheese formation and its potential applications
 **B.A. in Galactic Giggles** @ [Università Comica delle Stelle](https://www.stellecomiche.edu) *(Mar 2017 - Jul 2020)*
 
 A degree in making the cosmos laugh, one planet at a time.
+
+<div class="page-break"></div>
 
 ## 🌌 Interstellar Extracurriculars
 
